@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc0c004f-1a82-4a81-841b-564a6de40acc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/authcontroller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/checkscontroller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/orderscontroller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/usercontroller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/sessionmanager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/validate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/adminmodel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/checksModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/orderdetailsmodel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/ordersmodel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/usermodel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/vieworderdetailsmodel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/viewordermodel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/auth/login.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/checks/default.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/checks/t.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/orders/default.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/user/add.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/user/default.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/user/edit.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/snapchat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/sess_iqtnpnnfndd7fln5v6ff6h4l9g" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cafeteria.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cafeteria.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/abstractcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/abstractcontroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/categoriescontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/categoriescontroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/indexcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/indexcontroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/productscontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/productscontroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/Tea.1200px-Lipton-mug-tea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/cafee.download.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/omar.FaceApp_1579015281899.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/frontcontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/frontcontroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/productModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/categories/add.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/add.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/categories/default.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/default.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/categories/edit.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/edit.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/index/default.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index/default.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/notfound/notfound.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/notfound/notfound.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/add.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/products/add.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/default.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/products/default.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/edit.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/products/edit.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26nqrwxGHb3U9gD8HPWaY3a1BOV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc0c004f-1a82-4a81-841b-564a6de40acc" name="Changes" comment="" />
+      <created>1648069903187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648069903187</updated>
+      <workItem from="1648069905464" duration="103000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -7,10 +7,10 @@
 
 
 
-About Project
+# About Project
 
-there are two websites , one for (admin)  and another to ( user )
-both of them deal with the same database.
-it must create  an admin inside database to log into website .
-user can`t log into (website user) until admin register him into website.
+# there are two websites , one for (admin)  and another to ( user )
+# both of them deal with the same database.
+# it must create  an admin inside database to log into website .
+# user can`t log into (website user) until admin register him into website.
 

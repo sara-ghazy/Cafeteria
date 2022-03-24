@@ -32,12 +32,6 @@ class UserController extends AbstractController
     }
 
 
-    /////////////////////add & edit///////////////////
-
-    function submit($x,$id=0)
-    {
-
-    }
 
     function addAction()
     {
@@ -149,7 +143,7 @@ class UserController extends AbstractController
        {
            if($data->delete())
            {
-            header("location: /users");
+            header("location: /user");
             exit;
 
            }

@@ -68,7 +68,7 @@ class UserController extends AbstractController
                     {
                         $user=new UserModel();
                         $user->name=$_POST['name'];
-                        $user->password=$_POST['password'];
+                        $user->password=password_hash($_POST['password'],PASSWORD_DEFAULT);
                         $user->email=$_POST['email'];
                         $user->room=$_POST['room'];
                         $user->ext=$_POST['ext'];

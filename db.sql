@@ -8,7 +8,7 @@ set utf8 collate utf8_unicode_ci;
 #drop database cafeteria;
 
 
-###########table
+
 
 create table `admin` 
 (
@@ -233,11 +233,6 @@ select `created_at`, `name`, `room` ,`ext`, `orders`.`status` , `orders`.id , `t
 from `orders`,`user` where `orders`.userId=`user`.id ;
  
  
-
-
-
-
-
 
 
 

@@ -92,14 +92,14 @@ class CartController extends AbstractController
          {
             $obj=$stmt->fetchAll(\PDO::FETCH_CLASS);
              $order=array_shift($obj);
-             
+             if($order){
              $this->data['dateoflastorder']=$order->created_at;
 
              ///orderdetails
              $orderdetails=OrderdetailsModel::getAllByKey($order->id);
             
              $this->data['latestorder']=$orderdetails;
-             
+             }
          }
         
      

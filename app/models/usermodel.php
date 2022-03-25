@@ -24,12 +24,18 @@ class UserModel extends Model
 
     public static function login($email,$password)
     {
-        $sql="select * from `user` where email='".$email."' and password='".$password."'";
+
+        $sql="select * from `user` where email='".$email."'";
         $stmt=DatabaseHandler::factory()->prepare($sql);
         if($stmt->execute())
         {
             $user=$stmt->fetchall(\PDO::FETCH_ASSOC);
-            return array_shift($user);
+            $user= array_shift($user);
+            if(password_verify($password, $user["password"]))
+            {
+                return $user;
+            }else
+            return false;
         }
         return false;
 

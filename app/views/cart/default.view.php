@@ -1,4 +1,5 @@
 
+<div class="container shadow p-5 bg-light mt-3 " style="min-height:500px">
 <!--------------start latest order------------------>
 
 <div class="layout text-light" id="latestorder" style="display:none;" >
@@ -67,10 +68,9 @@
 
 <div class="row">
     <div class="col-7">
-
         <div class="row container mt-5">
             <?php  foreach($products as $product) {?>
-            <div class="col-4 ">
+            <div class="col ">
                 <div class="card shadow-lg p-3 mb-5 bg-white rounded border-3 text-center" style="width: 18rem;">
                     <form method="POST" action="/cart/default/?id=<?=$product->id?>">
                         <img src="<?='data:image/jpeg;base64,'.base64_encode($product->imgUrl)?>" name="imgUrl" class="card-img-top" style="height: 7rem;" alt="..."/>
@@ -89,7 +89,7 @@
     </div>
 </div>
 
-<div class="col-5 mt-5">
+<div class="col mt-5">
     <div class="container">
         <div class=" shadow-lg p-2 mb-2 bg-white rounded border-3">
             <fieldset>
@@ -152,3 +152,4 @@
 
 </div>
 
+       </div>

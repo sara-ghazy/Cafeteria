@@ -36,14 +36,17 @@ class AuthController extends AbstractController
             }
         $this->_view();
     }
+
     public function logoutAction()
     {
         unset($_SESSION['login']);
         header("location:/auth/login");
         exit;
     }
+    
+
     public function notfoundAction()
     {
-       $this->redirect('location:/auth/login');
+       header('location:/auth/login');
     }
 }

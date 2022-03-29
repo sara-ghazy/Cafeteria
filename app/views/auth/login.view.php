@@ -39,11 +39,12 @@
                     <input type="submit" class="btn btn-dark btn-lg btn-block"  value="Login" type="button">
                   </div>
 
-                  <a class="small text-muted" href="#!">Forgot password?</a>
-              
+
+                </form>
+
+                <a class="small text-muted" href="/email">Forgot password?</a>
                   <a href="#!" class="small text-muted">Terms of use.</a>
                   <a href="#!" class="small text-muted">Privacy policy</a>
-                </form>
 
               </div>
             </div>

@@ -30,12 +30,16 @@ class UserModel extends Model
         if($stmt->execute())
         {
             $user=$stmt->fetchall(\PDO::FETCH_ASSOC);
+            if($user){
             $user= array_shift($user);
             if(password_verify($password, $user["password"]))
             {
                 return $user;
-            }else
+            }
+            
+            else
             return false;
+        }
         }
         return false;
 

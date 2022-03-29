@@ -36,18 +36,25 @@ class AbstractController
     }
     protected function _view()
     {
-        if($this->controller==FrontController::NOT_FOUND_CONTROLLER)
+       if($this->controller==FrontController::NOT_FOUND_CONTROLLER)
         {
             require APP_PATH.DS.'views/notfound/notfound.view.php';
         }
         elseif ($this->action==FrontController::NOT_FOUND_ACTION)
         {
             require APP_PATH.DS.'views/notfound/noview.view.php';
-        }elseif ($this->controller=='auth')
+        }elseif ($this->controller=='email')
         {
             extract($this->data);
             require APP_PATH.DS.'template/head.php';
-            require APP_PATH . DS . 'views/auth/login.view.php';
+            require APP_PATH.DS.'views/email/default.view.php';
+        }
+
+        elseif ($this->controller=='auth')
+        {
+            extract($this->data);
+            require APP_PATH.DS.'template/head.php';
+            require APP_PATH.DS.'views/auth/login.view.php';
         }
         else
         {

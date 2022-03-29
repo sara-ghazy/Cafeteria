@@ -40,13 +40,17 @@ public function dispatch()
    }
 
 
-   if(!isset($_SESSION['login']))
-   {
-       if($this->_controller != 'auth' && $this->_action != 'login') {
+    if(!isset($_SESSION['login']))
+    {
+       
+        if($this->_controller == 'email' && $this->_action == 'default') {
+           
+        }
+        else if($this->_controller != 'auth' && $this->_action != 'login'){
            header('location:/auth/login');
            exit;
        }
-   }
+    }
 
    $controller=new $controllerClassName();
    if(!method_exists($controller,$actionName))
